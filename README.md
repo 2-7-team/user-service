@@ -25,12 +25,18 @@
   </tr>
 </table>
 
+</br>
 ---
+
+</br>
 
 ### ⏰ 프로젝트 기간  
 📅 **2025-04-03 ~ 2025-04-25**
 
+</br>
+
 ---
+</br>
 
 ### 📝 목차
 - 프로젝트 소개
@@ -38,7 +44,10 @@
 - 프로젝트 아키텍처
 - 도메인 및 마이크로서비스 구성
 
+</br>
 ---
+
+</br>
 
 ### ⚙ 프로젝트 소개
 
@@ -50,7 +59,9 @@
 - **Redisson 기반 분산 락** 적용으로 동시 예약 상황에서도 **데이터 정합성과 일관성**을 확보했습니다.  
 - 각 기능을 **독립적인 마이크로서비스**로 분리하여 **유지보수성과 유연한 확장성** 제공합니다.
 
+</br>
 --- 
+</br>
 
 ### ⚒️ 사용한 기술 스택
 
@@ -64,6 +75,8 @@
   - AWS (EC2, RDS)  
   - Spring Cloud (Eureka, Gateway, Config Server 등)  
 - **Monitoring:** Prometheus
+
+</br>
 
 ### 📝 Technologies & Tools 📝
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
@@ -83,7 +96,9 @@
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
 
+</br>
 ---
+</br>
 
 ### 🛠️ 프로젝트 아키텍쳐
   
@@ -94,8 +109,12 @@
 
 - ERD
   ![2열7열 (1)](https://github.com/user-attachments/assets/c6659c1a-1c5b-41fc-8d55-74fb8f190d25)
-  
+
+</br>
+
 ---
+
+</br>
 
 ### 🧩 도메인 및 마이크로서비스 구성
 
@@ -136,3 +155,5 @@
 
 - **review-service**  
   - 리뷰 작성, 조회, 수정, 삭제 기능 제공
+
+</br>
