@@ -1,11 +1,29 @@
 # 병원 예약 어플리케이션
 
+</br>
+
 ### 👥 팀원
 
-|:---:|:---:|:---:|:---:|
-| <img src="https://github.com/SSan0613.png" width="100" height="100"/> | <img src="https://github.com/goodperiodt.png" width="100" height="100"/> | <img src="https://github.com/dominic-yoon.png" width="100" height="100"/> | <img src="https://github.com/sojinnuna.png" width="100" height="100"/> |
-| [차상준](https://github.com/SSan0613) | [박성주](https://github.com/goodperiodt) | [윤관](https://github.com/dominic-yoon) | [김소진](https://github.com/sojinnuna) |
-| ![GitHub Badge](http://img.shields.io/badge/SSan0613-green?style=social&logo=github) | ![GitHub Badge](http://img.shields.io/badge/goodperiodt-green?style=social&logo=github) | ![GitHub Badge](http://img.shields.io/badge/dominic--yoon-green?style=social&logo=github) | ![GitHub Badge](http://img.shields.io/badge/sojinnuna-green?style=social&logo=github) |
+<table>
+  <tr align="center">
+    <td><img src="https://github.com/SSan0613.png" width="100" height="100"/></td>
+    <td><img src="https://github.com/goodperiodt.png" width="100" height="100"/></td>
+    <td><img src="https://github.com/dominic-yoon.png" width="100" height="100"/></td>
+    <td><img src="https://github.com/sojinnuna.png" width="100" height="100"/></td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://github.com/SSan0613">차상준</a></td>
+    <td><a href="https://github.com/goodperiodt">박성주</a></td>
+    <td><a href="https://github.com/dominic-yoon">윤관</a></td>
+    <td><a href="https://github.com/sojinnuna">김소진</a></td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://img.shields.io/badge/GitHub-SSan0613-black?style=social&logo=github"/></td>
+    <td><img src="https://img.shields.io/badge/GitHub-goodperiodt-black?style=social&logo=github"/></td>
+    <td><img src="https://img.shields.io/badge/GitHub-dominic--yoon-black?style=social&logo=github"/></td>
+    <td><img src="https://img.shields.io/badge/GitHub-sojinnuna-black?style=social&logo=github"/></td>
+  </tr>
+</table>
 
 ---
 
