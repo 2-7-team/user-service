@@ -19,6 +19,7 @@
 - 프로젝트 소개
 - 사용한 기술 스택
 - 프로젝트 아키텍처
+- 도메인 및 마이크로서비스 구성
 - Deployment URL
 
 ---
@@ -36,12 +37,17 @@
 --- 
 
 ### ⚒️ 사용한 기술 스택
-- **Language:** Java
-- **Framework:** Spring Boot
-- **Build Tool:** Gradle
-- **Database:** PostgreSQL
-- **ORM:** Spring Data JPA
-- **Security:** Spring Security, JWT
+
+- **Language:** Java  
+- **Framework:** Spring Boot  
+- **Build Tool:** Gradle  
+- **Database:** PostgreSQL  
+- **ORM:** Spring Data JPA  
+- **Security:** Spring Security, JWT  
+- **Cloud & Infrastructure:**  
+  - AWS (EC2, RDS)  
+  - Spring Cloud (Eureka, Gateway, Config Server 등)  
+- **Monitoring:** Prometheus
 
 ### 📝 Technologies & Tools 📝
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
@@ -52,8 +58,8 @@
 ![Eureka](https://img.shields.io/badge/Eureka-6DB33F?style=flat)
 ![Spring Cloud Config](https://img.shields.io/badge/Config%20Server-6DB33F?style=flat&logo=spring&logoColor=white)
 ![Feign Client](https://img.shields.io/badge/FeignClient-000000?style=flat)
-![Slack API](https://img.shields.io/badge/Slack%20API-4A154B?style=flat&logo=slack&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000?style=flat&logo=intellijidea&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -67,8 +73,8 @@
 <div>
   
 - 인프라 설계도
-  ![project3-서비스 흐름도(도식) drawio (1)](https://github.com/user-attachments/assets/cb5e61f9-86f4-460d-a55c-4b17bc49417e)
-  
+  ![project3-서비스 흐름도(도식) drawio](https://github.com/user-attachments/assets/aec947b0-67a2-464c-b138-5551e4ef9d07)
+
 </br>
 
 - ERD
@@ -78,6 +84,48 @@
 
 </div>
 ---
+
+### 🧩 도메인 및 마이크로서비스 구성
+
+본 프로젝트는 **MSA(Microservices Architecture)** 기반으로 각 도메인을 독립된 서비스로 분리하여 개발하였습니다.  
+각 서비스는 명확한 책임을 가지며, **Spring Cloud Gateway**를 통해 라우팅되고, **JWT 기반 인증/인가**가 적용됩니다.
+
+</br>
+
+##### 🧱 서비스 정보
+
+- **eureka-server**  
+  - 각 마이크로서비스를 등록하고 관리하는 서비스 레지스트리
+  - 마이크로서비스 간 통신을 위한 서비스 디스커버리 기능 제공
+
+- **gateway-service**  
+  - 모든 클라이언트 요청의 진입점  
+  - 요청을 적절한 마이크로서비스로 라우팅  
+  - 인증, 로깅 등의 공통 필터 처리
+
+- **common-module**  
+  - 모든 마이크로서비스의 공통 설정 관리  
+  - 공통 예외 처리, `BaseEntity`, `UserInfo` 등의 공용 클래스 제공
+
+- **user-service**  
+  - 사용자 회원가입, 로그인 처리  
+  - JWT 기반 인증/인가 기능 제공
+
+- **hospital-service**  
+  - 병원 등록 기능  
+  - 병원 정보 조회, 수정, 삭제 관리
+
+- **reservation-service**  
+  - 예약 생성 및 관리  
+  - 예약 조회, 수정, 삭제 기능 제공
+
+- **notification-service**  
+  - 예약 생성/삭제 시 사용자에게 알림 전송 기능 제공
+
+- **review-service**  
+  - 리뷰 작성, 조회, 수정, 삭제 기능 제공
+
+--
 
 ### Deployment Url
   - [배포 주소]()
