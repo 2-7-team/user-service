@@ -70,7 +70,6 @@
 ---
 
 ### 🛠️ 프로젝트 아키텍쳐
-<div>
   
 - 인프라 설계도
   ![project3-서비스 흐름도(도식) drawio](https://github.com/user-attachments/assets/aec947b0-67a2-464c-b138-5551e4ef9d07)
@@ -80,9 +79,6 @@
 - ERD
   ![2열7열 (1)](https://github.com/user-attachments/assets/c6659c1a-1c5b-41fc-8d55-74fb8f190d25)
   
-</br>
-
-</div>
 ---
 
 ### 🧩 도메인 및 마이크로서비스 구성
@@ -92,7 +88,7 @@
 
 </br>
 
-##### 🧱 서비스 정보
+#### 🧱 서비스 정보
 
 - **eureka-server**  
   - 각 마이크로서비스를 등록하고 관리하는 서비스 레지스트리
