@@ -30,7 +30,38 @@
 
 본 프로젝트는 병원 예약 서비스를 MSA(Microservices Architecture) 구조로 설계하여, 안정성과 확장성을 극대화한 헬스케어 플랫폼입니다.
 
-- **서버 이중화 및 로드 밸런싱**을 통해 급격한 트래픽 증가에도 안정적인 서비스 제공  
-- **Redisson 기반 분산 락** 적용으로 동시 예약 상황에서도 **데이터 정합성과 일관성** 확보  
-- 각 기능을 **독립적인 마이크로서비스**로 분리하여 **유지보수성과 유연한 확장성** 제공
+- **서버 이중화 및 로드 밸런싱**을 통해 급격한 트래픽 증가에도 안정적인 서비스 제공합니다.
+- **Redisson 기반 분산 락** 적용으로 동시 예약 상황에서도 **데이터 정합성과 일관성**을 확보했습니다.  
+- 각 기능을 **독립적인 마이크로서비스**로 분리하여 **유지보수성과 유연한 확장성** 제공합니다.
+
+--- 
+
+### ⚒️ 사용한 기술 스택
+- **Language:** Java
+- **Framework:** Spring Boot
+- **Build Tool:** Gradle
+- **Database:** PostgreSQL
+- **ORM:** Spring Data JPA
+- **Security:** Spring Security, JWT
+
+## 📝 Technologies & Tools 📝
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=springsecurity&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=jsonwebtokens&logoColor=white)
+![Spring Cloud Gateway](https://img.shields.io/badge/Spring%20Cloud%20Gateway-6DB33F?style=flat)
+![Eureka](https://img.shields.io/badge/Eureka-6DB33F?style=flat)
+![Spring Cloud Config](https://img.shields.io/badge/Config%20Server-6DB33F?style=flat&logo=spring&logoColor=white)
+![Feign Client](https://img.shields.io/badge/FeignClient-000000?style=flat)
+![Slack API](https://img.shields.io/badge/Slack%20API-4A154B?style=flat&logo=slack&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000?style=flat&logo=intellijidea&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
+
+---
+
 
