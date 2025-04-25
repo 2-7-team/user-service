@@ -20,7 +20,6 @@
 - 사용한 기술 스택
 - 프로젝트 아키텍처
 - Deployment URL
-- Team Notion URL
 
 ---
 
@@ -44,7 +43,7 @@
 - **ORM:** Spring Data JPA
 - **Security:** Spring Security, JWT
 
-## 📝 Technologies & Tools 📝
+### 📝 Technologies & Tools 📝
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=springsecurity&logoColor=white)
@@ -64,4 +63,21 @@
 
 ---
 
+### 🛠️ 프로젝트 아키텍쳐
+<div>
+  
+- 인프라 설계도
+  ![project3-서비스 흐름도(도식) drawio (1)](https://github.com/user-attachments/assets/cb5e61f9-86f4-460d-a55c-4b17bc49417e)
+  
+</br>
 
+- ERD
+  ![2열7열 (1)](https://github.com/user-attachments/assets/c6659c1a-1c5b-41fc-8d55-74fb8f190d25)
+  
+</br>
+
+</div>
+---
+
+### Deployment Url
+  - [배포 주소]()
