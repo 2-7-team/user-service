@@ -101,8 +101,7 @@
 
 ### 🧩 도메인 및 마이크로서비스 구성
 
-#### 인증/인가 관련 추가 설명
-</br>
+#### ➕ 인증/인가 관련 추가 설명
 본 프로젝트는 MSA(Microservices Architecture) 기반으로 각 도메인을 독립된 서비스로 분리하여 개발하였습니다.
 서비스 간 통신은 Spring Cloud Gateway를 통해 이루어지며, 인증과 인가는 JWT(Json Web Token) 기반으로 처리됩니다.
 
