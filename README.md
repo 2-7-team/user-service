@@ -2,7 +2,6 @@
 
 ### 👥 팀원
 
-| 차상준 | 박성주 | 윤관 | 김소진 |
 |:---:|:---:|:---:|:---:|
 | <img src="https://github.com/SSan0613.png" width="100" height="100"/> | <img src="https://github.com/goodperiodt.png" width="100" height="100"/> | <img src="https://github.com/dominic-yoon.png" width="100" height="100"/> | <img src="https://github.com/sojinnuna.png" width="100" height="100"/> |
 | [차상준](https://github.com/SSan0613) | [박성주](https://github.com/goodperiodt) | [윤관](https://github.com/dominic-yoon) | [김소진](https://github.com/sojinnuna) |
@@ -20,7 +19,6 @@
 - 사용한 기술 스택
 - 프로젝트 아키텍처
 - 도메인 및 마이크로서비스 구성
-- Deployment URL
 
 ---
 
@@ -120,8 +118,3 @@
 
 - **review-service**  
   - 리뷰 작성, 조회, 수정, 삭제 기능 제공
-
---
-
-### Deployment Url
-  - [배포 주소]()
