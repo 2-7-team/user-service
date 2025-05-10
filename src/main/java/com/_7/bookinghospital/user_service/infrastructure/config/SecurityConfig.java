@@ -27,7 +27,7 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/users/signin", "/api/users/signup").permitAll()
+                        .requestMatchers("/api/users/signin", "/api/users/signup", "/actuator", "/actuator/prometheus").permitAll()
                         .anyRequest().authenticated()
                 );
         return http.build();

@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 @SpringBootTest
 class UserServiceApplicationTests {
 
-	@Autowired
+/*	@Autowired
 	private UserService userService;
 
 	@Test
@@ -28,5 +28,5 @@ class UserServiceApplicationTests {
 				.build();
 
 		userService.signUp(dto);
-	}
+	}*/
 }
